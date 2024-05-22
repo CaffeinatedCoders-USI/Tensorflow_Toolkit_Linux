@@ -1,0 +1,7 @@
+commands:
+  - name: List Home Directory
+    command: ls ~
+  - name: Disk Usage
+    command: df -h
+  - name: Current Processes
+    command: ps aux
