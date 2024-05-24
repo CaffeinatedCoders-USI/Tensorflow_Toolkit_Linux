@@ -31,10 +31,12 @@ commands = load_commands('config.yml')
 # Create the main window
 root = tk.Tk()
 root.title("Simple Command Dashboard")
+root.geometry("700x400")
 
 # Configure the grid to make the widgets resizable
 root.grid_rowconfigure(1, weight=1)
 root.grid_columnconfigure(0, weight=1)
+
 
 # Create a frame to hold the dropdown menu and buttons
 frame = ttk.Frame(root, padding="10")

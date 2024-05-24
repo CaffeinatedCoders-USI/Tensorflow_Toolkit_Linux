@@ -1,6 +1,6 @@
 commands:
-  - name: List Home Directory
-    command: ls ~
+  - name: System Info
+    command: bash system_info.sh
   - name: Disk Usage
     command: df -h
   - name: Current Processes
